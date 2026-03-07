@@ -49,6 +49,7 @@ const INITIAL_SOURCES = [
   { id: 'groene',      name: 'De Groene Amsterdammer',   desc: 'Progressief weekblad, buitenlandrubriek',       cat: 'nl',      selected: false },
   { id: 'versbeton',   name: 'Vers Beton',               desc: 'Lokaal en links, Rotterdam',                    cat: 'nl',      selected: false },
   { id: 'doorbraak',   name: 'Doorbraak',                desc: 'Vlaams links, onafhankelijk',                   cat: 'nl',      selected: false },
+  { id: 'joop',        name: 'Joop (BNNVARA)',           desc: 'Progressief opinieplarform, Nederland',         cat: 'nl',      selected: false },
 ];
 
 const TOPIC_GROUPS = [
@@ -62,6 +63,7 @@ const TOPIC_GROUPS = [
       { label: 'Afrika',             query: 'Afrika geopolitiek conflicten nieuws',               dagQuery: 'Belangrijkste geopolitieke nieuws Afrika van vandaag' },
       { label: 'Latijns-Amerika',    query: 'Latijns-Amerika geopolitiek nieuws',                 dagQuery: 'Belangrijkste geopolitieke nieuws Latijns-Amerika van vandaag' },
       { label: 'Azie & Pacific',     query: 'Azie Pacific geopolitiek nieuws spanningen',         dagQuery: 'Belangrijkste geopolitieke nieuws Azie Pacific van vandaag' },
+      { label: 'Nederland & Wereld',  query: 'Nederlandse buitenlandse politiek internationale betrokkenheid diplomatie',  dagQuery: 'Belangrijkste nieuws Nederlandse buitenlandse politiek en internationale betrokkenheid van vandaag' },
     ]
   },
   {
