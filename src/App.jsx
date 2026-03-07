@@ -135,7 +135,7 @@ Zoek minimaal 5 recente berichten. Schrijf alles in het Nederlands.`;
       let finalText = '';
 
       for (let round = 0; round < 8; round++) {
-        const resp = await fetch('/api/chat', {
+        const resp = await fetch('https://api.anthropic.com/v1/messages', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
